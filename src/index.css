@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.custom-menu-item {
+  background-color: black; /* Change this to your desired background color */
+  color: white; /* Change this to your desired text color */
+  /* Add any other styles you need for the menu items */
+}
+
