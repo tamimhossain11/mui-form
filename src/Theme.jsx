@@ -61,11 +61,10 @@ export default function CustomizedDialogs() {
           <CloseIcon />
         </IconButton>
         <LinearProgress sx={{
-          height: 4, maxWidth: '800px', marginTop: '10px', backgroundColor: '#f7f2f4', "& .MuiLinearProgress-barColorPrimary": {
+          height: 5, maxWidth: '800px', marginTop: '10px', backgroundColor: '#f7f2f4', "& .MuiLinearProgress-barColorPrimary": {
             backgroundColor: '#c41259',
           }
-        }} variant="determinate"
-          value={10}
+        }} 
         />
         <DialogContent dividers sx={{ overflow: 'auto' }}>
 
